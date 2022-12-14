@@ -12,8 +12,8 @@ In these labs, you will be using cURL to make API calls and using Dapr quick-sta
 Follow the below steps for completing the setup for running the lab:
 
 1. If you are running Windows, please install [WSL2 Install WSL | Microsoft Learn](https://learn.microsoft.com/en-us/windows/wsl/install)
-1. Install Python 3 in WSL - [Python Releases for Windows | Python.org](https://www.python.org/downloads/windows/)
-1. Install Python3 Pip Installer in WSL - `sudo apt-get install python3-pip`
+1. Install Python 3 in WSL - `sudo apt install python3`
+1. Install Python3 Pip Installer in WSL - `sudo apt install python3-pip`
 1. Install IPython Kernel for Jupyter in WSL - `python3  -m pip install ipykernel -U --user --force-reinstall`
 1. Install Docker in WSL:
     1. If using Docker Desktop: [Docker Desktop WSL 2 backend on Windows](https://docs.docker.com/desktop/windows/wsl/)
