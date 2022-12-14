@@ -9,9 +9,18 @@ In these labs, you will be using cURL to make API calls and using Dapr quick-sta
 
 ## Prerequisites
 
+Follow the below steps for completing the setup for running the lab:
+
 1. If you are running Windows, please install [WSL2 Install WSL | Microsoft Learn](https://learn.microsoft.com/en-us/windows/wsl/install)
-1. Git and a GitHub account - [Git - Downloading Package (git-scm.com)](https://git-scm.com/download/win), [GitHub](https://github.com/)
-1. Visual studio code - [Visual Studio Code - Code Editing. Redefined](https://code.visualstudio.com/) with Jupyter extension - [Jupyter Extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) and WSL extension - [WSL Extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) 
-1. Python 3 - [Python Releases for Windows | Python.org](https://www.python.org/downloads/windows/)
-1. Dapr CLI - [Install the Dapr CLI | Dapr Docs](https://docs.dapr.io/getting-started/install-dapr-cli/)
+1. Install Python 3 in WSL - [Python Releases for Windows | Python.org](https://www.python.org/downloads/windows/)
+1. Install Python3 Pip Installer in WSL - `sudo apt-get install python3-pip`
+1. Install IPython Kernel for Jupyter in WSL - `python3  -m pip install ipykernel -U --user --force-reinstall`
+1. Install Visual studio code - [Visual Studio Code - Code Editing. Redefined](https://code.visualstudio.com/)
+1. Clone labs-101 repository in WSL - `git clone https://github.com/dapr-learning/labs-101.git`
+1. Open the repository in VS Code from WSL - `code labs-101` 
+1. Install following extensions in VS Code:
+    1. WSL extension - [WSL Extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
+    1. Jupyter extension (in WSL) - [Jupyter Extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+    1. Python extension (in WSL) - [Python Extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+1. Install Dapr CLI - [Install the Dapr CLI | Dapr Docs](https://docs.dapr.io/getting-started/install-dapr-cli/)
 1. Install Dapr - [Initialize Dapr in your local environment | Dapr Docs](https://docs.dapr.io/getting-started/install-dapr-selfhost/)
