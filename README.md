@@ -18,12 +18,11 @@ Follow the below steps for completing the setup for running the lab:
 1. Install Docker in WSL:
     1. If using Docker Desktop: [Docker Desktop WSL 2 backend on Windows](https://docs.docker.com/desktop/windows/wsl/)
     1. If not using Docker Desktop: [Install Docker in WSL 2 without Docker Desktop](https://nickjanetakis.com/blog/install-docker-in-wsl-2-without-docker-desktop)
-1. Install Visual studio code - [Visual Studio Code - Code Editing. Redefined](https://code.visualstudio.com/)
+1. Install Visual studio code with WSL Extension - [Get started using Visual Studio Code with Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-vscode)
 1. Clone labs-101 repository in WSL - `git clone https://github.com/dapr-learning/labs-101.git`
 1. Open the repository in VS Code from WSL - `code labs-101` 
-1. Install following extensions in VS Code:
-    1. WSL extension - [WSL Extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
-    1. Jupyter extension (in WSL) - [Jupyter Extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
-    1. Python extension (in WSL) - [Python Extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+1. Install following extensions in VS Code in WSL:
+    1. Jupyter extension - [Jupyter Extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+    1. Python extension - [Python Extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 1. Install Dapr CLI - [Install the Dapr CLI | Dapr Docs](https://docs.dapr.io/getting-started/install-dapr-cli/)
 1. Install Dapr - [Initialize Dapr in your local environment | Dapr Docs](https://docs.dapr.io/getting-started/install-dapr-selfhost/)
