@@ -15,6 +15,9 @@ Follow the below steps for completing the setup for running the lab:
 1. Install Python 3 in WSL - [Python Releases for Windows | Python.org](https://www.python.org/downloads/windows/)
 1. Install Python3 Pip Installer in WSL - `sudo apt-get install python3-pip`
 1. Install IPython Kernel for Jupyter in WSL - `python3  -m pip install ipykernel -U --user --force-reinstall`
+1. Install Docker in WSL:
+    1. If using Docker Desktop: [Docker Desktop WSL 2 backend on Windows](https://docs.docker.com/desktop/windows/wsl/)
+    1. If not using Docker Desktop: [Install Docker in WSL 2 without Docker Desktop](https://nickjanetakis.com/blog/install-docker-in-wsl-2-without-docker-desktop)
 1. Install Visual studio code - [Visual Studio Code - Code Editing. Redefined](https://code.visualstudio.com/)
 1. Clone labs-101 repository in WSL - `git clone https://github.com/dapr-learning/labs-101.git`
 1. Open the repository in VS Code from WSL - `code labs-101` 
